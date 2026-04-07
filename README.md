@@ -146,7 +146,7 @@ Plus a comprehensive methodology & governance note addressing AI risks, quality 
 
 - **Email:** yayan.riyanto@monash.edu
 - **Phone:** +61 402 460 353
-- **LinkedIn:** [linkedin.com/in/yayanriyanto](https://linkedin.com/in/yayanriyanto)
+- **LinkedIn:** [linkedin.com/in/yayan-riyanto-a06481b2](https://linkedin.com/in/yayan-riyanto-a06481b2/)
 
 ---
 
