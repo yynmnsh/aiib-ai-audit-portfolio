@@ -38,11 +38,11 @@ This portfolio demonstrates AI/ML capabilities and domain knowledge relevant to 
 
 | JD Responsibility | Artefact(s) |
 |---|---|
-| Develop a PoC: AI-assisted reporting | ✅ AI Audit Report Generator — LLM generates first-draft audit reports from structured CCCE findings |
-| Develop a PoC: Structured Audit Knowledge Base | ✅ Audit Knowledge Base Q&A — RAG pipeline with 13 indexed AIIB audit documents |
-| Develop a PoC: Risk Intelligence Dashboard | ✅ Risk Intelligence Dashboard — KRI monitoring, ML anomaly detection, audit planning intelligence |
-| Prepare a methodology & governance note | ✅ Embedded in AI Audit Report Generator (Tab 3): principles, permitted/prohibited uses, QA framework, AI risk register, implementation roadmap |
-| Present completed prototype, findings, and recommendations | ✅ All apps include "About" tabs with architecture, limitations, and JD mapping |
+| Develop a PoC: AI-assisted reporting | AI Audit Report Generator — LLM generates first-draft audit reports from structured CCCE findings |
+| Develop a PoC: Structured Audit Knowledge Base | Audit Knowledge Base Q&A — RAG pipeline with 13 indexed AIIB audit documents |
+| Develop a PoC: Risk Intelligence Dashboard | Risk Intelligence Dashboard — KRI monitoring, ML anomaly detection, audit planning intelligence |
+| Prepare a methodology & governance note | Embedded in AI Audit Report Generator (Tab 3): principles, permitted/prohibited uses, QA framework, AI risk register, implementation roadmap |
+| Present completed prototype, findings, and recommendations | All apps include "About" tabs with architecture, limitations, and JD mapping |
 
 ### Requirements
 
