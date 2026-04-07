@@ -53,7 +53,7 @@ This portfolio demonstrates AI/ML capabilities and domain knowledge relevant to 
 | Basic understanding of ML, LLMs, and data analysis | Isolation Forest, LOF, Z-Score ensemble, TF-IDF retrieval, RAG architecture, prompt engineering — demonstrated across all artefacts |
 | Experience with Python | All artefacts built in Python (Streamlit, scikit-learn, pandas, numpy, plotly, anthropic SDK) |
 | Excellent communication skills | Professional UI/UX across all apps; methodology notes; structured reporting |
-| Great team player | Cross-institutional negotiation experience (DG Tax ↔ DG Treasury, 516 offices — see OR portfolio) |
+| Great team player | Cross-institutional negotiation experience (DG Tax ↔ DG Treasury, 516 offices — see [OR portfolio](https://github.com/yynmnsh/aiib-ai-audit-portfolio/tree/main)) |
 | Fluent in English | IELTS 8.5; all artefacts in English; PhD publications in English-language journals |
 
 ---
