@@ -25,7 +25,7 @@ st.markdown("""
     --border: #e2e8f0; --radius: 14px; --shadow-sm: 0 1px 3px rgba(0,0,0,.04); --shadow-md: 0 4px 16px rgba(0,0,0,.06);
 }
 
-* { font-family: 'DM Sans', sans-serif !important; }
+.block-container, .block-container * { font-family: 'DM Sans', sans-serif; }
 code, pre, .stCodeBlock { font-family: 'JetBrains Mono', monospace !important; }
 .block-container { padding-top: 2rem; max-width: 1200px; }
 
@@ -129,7 +129,7 @@ code, pre, .stCodeBlock { font-family: 'JetBrains Mono', monospace !important; }
 }
 
 /* Hide Streamlit defaults */
-#MainMenu {visibility:hidden;} footer {visibility:hidden;} .stDeployButton {display:none;}
+[data-testid="stKeyboardIcon"] {display:none;} [class*="keyboard"] {display:none !important;} #MainMenu {visibility:hidden;} footer {visibility:hidden;} .stDeployButton {display:none;}
 
 /* Tab styling */
 .stTabs [data-baseweb="tab-list"] { gap:4px; }
@@ -360,7 +360,7 @@ with tab1:
 
     for i, f in enumerate(st.session_state.findings):
         risk_col = RISK_COLORS.get(f.get("risk","Medium"), "#eab308")
-        with st.expander(f"\u2699\ufe0f Finding {i+1}: {f.get('title','New Finding')}", expanded=(i==0)):
+        with st.expander(f"Finding {i+1}: {f.get('title','New Finding')}", expanded=(i==0)):
             fc1,fc2 = st.columns([3,1])
             with fc1:
                 f["title"] = st.text_input("Title", value=f.get("title",""), key=f"ft_{i}")
