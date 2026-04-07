@@ -190,7 +190,7 @@ with tab1:
         fig.add_hline(y=thresh["amber"],line_dash="dash",line_color="#d97706",opacity=.5,row=r,col=c)
         fig.add_hline(y=thresh["red"],line_dash="dash",line_color="#dc2626",opacity=.5,row=r,col=c)
     
-    fig.update_layout(height=600,margin=dict(t=40,b=30),plot_bgcolor="white",showlegend=False)
+    fig.update_layout(height=750,margin=dict(t=40,b=30),plot_bgcolor="white",showlegend=False)
     fig.update_yaxes(gridcolor="#f1f5f9")
     fig.update_xaxes(tickangle=45,tickfont=dict(size=8))
     st.plotly_chart(fig,use_container_width=True)
