@@ -25,7 +25,9 @@ st.markdown("""
     --border: #e2e8f0; --radius: 14px; --shadow-sm: 0 1px 3px rgba(0,0,0,.04); --shadow-md: 0 4px 16px rgba(0,0,0,.06);
 }
 
-.block-container, .block-container * { font-family: 'DM Sans', sans-serif; }
+html, body, [class*="stApp"] { font-family: 'DM Sans', sans-serif; }
+p, span, h1, h2, h3, h4, h5, h6, label, div, button, input { font-family: 'DM Sans', sans-serif; }
+.stIconMaterial, .material-icons, .material-symbols-rounded { font-family: 'Material Symbols Rounded' !important; }
 code, pre, .stCodeBlock { font-family: 'JetBrains Mono', monospace !important; }
 .block-container { padding-top: 2rem; max-width: 1200px; }
 
